@@ -4,8 +4,15 @@
   transition: 0.3s scale ease-in-out;
 }
 .nav-icon:hover{
-  scale: 1.05;
+  scale: 1.1;
 }
 .cardInfo{
   
+}
+.heading{
+  scale: 1.0;
+  transition: 0.3s scale ease-in-out;
+}
+.heading:hover{
+  scale: 1.1;
 }

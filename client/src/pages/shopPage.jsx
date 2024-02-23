@@ -1,24 +1,33 @@
 import '../App.css';
 import CardItem from '../components/cardItem';
 import { Flex } from '@chakra-ui/react';
-
+import NavBar from '../components/NavBar';
 
 const ShopPage = () =>{
     return(
+
         <Flex
-            justify={'center'}
-            align={'center'}
             flexWrap={'wrap'}
-            gap={'35px'}
-            mt={'50px'}
+            justify={'center'}
+            width={'100%'}
         >
-            <CardItem />
-            <CardItem />
-            <CardItem />
-            <CardItem />
-            <CardItem />
-            <CardItem />
-            <CardItem />
+            <NavBar/>
+            <Flex
+                flexWrap={'wrap'}
+                mt={'50px'}
+                width={'90%'}
+                justify={'center'}
+                gap={'35px'}
+            > 
+                <CardItem />
+                <CardItem />
+                <CardItem />
+                <CardItem />
+                <CardItem />
+                <CardItem />
+                <CardItem />
+            </Flex>
+           
         </Flex>
     )
     
