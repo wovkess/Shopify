@@ -1,4 +1,4 @@
-import NavBar from '../components/NavBar';
+import NavBarSh from '../components/NavBarSh';
 import { Flex } from '@chakra-ui/react';
 const AuthPage = () =>{
     return(
@@ -7,7 +7,7 @@ const AuthPage = () =>{
             flexWrap={'wrap'}
             justify={'center'}
         >
-            <NavBar />
+            <NavBarSh />
             <Flex
                 width={'90%'}
                 justify={'center'}

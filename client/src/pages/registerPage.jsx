@@ -1,8 +1,8 @@
-import NavBar from '../components/NavBar';
+import NavBarSh from '../components/NavBarSh';
 
 const RegisterPage = () =>{
     return(
-       <NavBar />
+       <NavBarSh />
     )
     
 }
