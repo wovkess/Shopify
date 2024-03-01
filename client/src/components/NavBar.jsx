@@ -16,7 +16,9 @@ const NavBar = () => {
             <Link
                 to={HomeRoute}
             >
-                <Heading className='heading'>Shopify</Heading>
+                <Heading className='heading'>
+                    Porsche
+                </Heading>
             </Link>
             <Flex>
                 <Link to={ShopRoute}>
