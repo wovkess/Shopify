@@ -1,5 +1,5 @@
-const colors = () => {
-    return{ // создаем объект цветов
+const colors = () => { // colors - функция
+    return{ // возвращаем объект цветов
         white: "#EFEFE9",
         skin: "#E8D9CD",
         cream: "#BBA58F",
