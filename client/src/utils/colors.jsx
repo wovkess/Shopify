@@ -5,7 +5,8 @@ const colors = () => { // colors - функция
         cream: "#BBA58F",
         mediumGreen: "#959D90",
         brown: "#523D35",
-        midnight: "#223030"
+        midnight: "#223030",
+        black: "#000000"
     };
 };
 export default colors;
