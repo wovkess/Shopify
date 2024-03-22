@@ -34,7 +34,7 @@ const NavBar = () => {
                 </Link>
                 
                 <Text className='navLink' color={black} fontWeight={'600'} cursor={'pointer'}>
-                    About
+                    Services
                 </Text>
                 <Text className='navLink' color={black} fontWeight={'600'} cursor={'pointer'}>
                     Products
