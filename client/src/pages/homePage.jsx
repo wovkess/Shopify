@@ -91,6 +91,39 @@ const HomePage = () =>{
                             Our application provides a high level of protection for our users
                         </Text>
                     </Box>
+                    <Box width={380} h={260} bg={white} borderRadius={8} padding={5}>
+                        <Flex align={'center'} justify={'center'} width={"64px"} height={"64px"} >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="44px" height="44px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M13.138.053a12.018 12.018 0 0 0-9.646 3.481A12.014 12.014 0 0 0 .937 16.651a12.014 12.014 0 0 0 11.162 7.348a2.275 2.275 0 1 0-.037-4.549a7.438 7.438 0 0 1-6.932-4.562a7.438 7.438 0 0 1 1.587-8.145a7.437 7.437 0 0 1 12.378 3.014H12.05a2.275 2.275 0 1 0 0 4.55h9.674A2.275 2.275 0 0 0 24 12.04A12.014 12.014 0 0 0 16.597.914a11.962 11.962 0 0 0-3.459-.86Z"/>
+                            </svg>
+                        </Flex>
+                        <Text ml={2} fontSize={25} fontWeight={'600'}>Efficiency</Text>
+                        <Text ml={2} fontSize={20} opacity={0.6}>
+                            Thanks to our service, you can effectively match an employee to the criteria you need
+                        </Text>
+                    </Box>
+                    <Box width={380} h={260} bg={white} borderRadius={8} padding={5}>
+                        <Flex align={'center'} justify={'center'} width={"64px"} height={"64px"} >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M20.5 12q-.625 0-1.063-.438T19 10.5v-6q0-.625.438-1.063T20.5 3q.625 0 1.063.438T22 4.5v6q0 .625-.438 1.063T20.5 12ZM10 12q-1.65 0-2.825-1.175T6 8q0-1.65 1.175-2.825T10 4q1.65 0 2.825 1.175T14 8q0 1.65-1.175 2.825T10 12Zm-8 8v-2.8q0-.85.425-1.563T3.6 14.55q1.5-.75 3.112-1.15T10 13q1.675 0 3.288.4t3.112 1.15q.75.375 1.175 1.088T18 17.2V20H2Zm2-2h12v-.8q0-.275-.125-.5t-.375-.35q-1.275-.65-2.663-1T10 15q-1.45 0-2.838.35t-2.662 1q-.25.125-.375.35T4 17.2v.8Zm6-8q.825 0 1.413-.588T12 8q0-.825-.588-1.413T10 6q-.825 0-1.413.588T8 8q0 .825.588 1.413T10 10Zm0-2Zm0 10Z"/>
+                            </svg>
+                        </Flex>
+                        <Text ml={2} fontSize={25} fontWeight={'600'}>Individual approach</Text>
+                        <Text ml={2} fontSize={20} opacity={0.6}>
+                            In our service there is a place for the dreaming beginner, as well as for the professional worker who wants to sell his vacancy profitably
+                        </Text>
+                    </Box>
+                    <Box width={380} h={260} bg={white} borderRadius={8} padding={5}>
+                        <Flex align={'center'} justify={'center'} width={"64px"} height={"64px"} >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M3 7V5.615q0-.69.463-1.152Q3.925 4 4.615 4h14.77q.69 0 1.152.463q.463.462.463 1.152V7h-1V5.615q0-.269-.173-.442T19.385 5H4.615q-.269 0-.442.173T4 5.615V7H3Zm6 13v-2H4.615q-.69 0-1.152-.462Q3 17.075 3 16.385V15h1v1.385q0 .269.173.442t.442.173h14.77q.269 0 .442-.173t.173-.442V15h1v1.385q0 .69-.462 1.152q-.463.463-1.153.463H15v2H9Zm3-9Zm-7.585 0l2.6-2.6l-.707-.708L3 11l3.308 3.308l.707-.708l-2.6-2.6Zm15.17 0l-2.6 2.6l.707.708L21 11l-3.308-3.308l-.707.708l2.6 2.6Z"/>
+                            </svg>
+                        </Flex>
+                        <Text ml={2} fontSize={25} fontWeight={'600'}>Development</Text>
+                        <Text ml={2} fontSize={20} opacity={0.6}>
+                            By registering on our service, you can be sure that our application will be constantly improving for our customers
+                        </Text>
+                    </Box>
                 </Flex>
             </Flex>
             <Flex // footer
