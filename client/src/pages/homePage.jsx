@@ -8,6 +8,7 @@ import IntroVideo from '../components/IntroVideo';
 
 
 const HomePage = () =>{
+    
     const colorPallette = colors(); // colorPallette - хранит значения функции
     const { white, midnight, brown, mediumGreen, black } = colorPallette;
     return(
